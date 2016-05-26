@@ -9,8 +9,9 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.projetogustavo.projeto_gustavo.MainActivity">
 
-    <TextView
+    <fragment
+        android:id="@+id/fragment_heroes"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:name="com.projetogustavo.projeto_gustavo.HeroesFragment" />
 </RelativeLayout>
