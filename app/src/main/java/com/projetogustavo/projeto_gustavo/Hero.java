@@ -1,12 +1,19 @@
 package com.projetogustavo.projeto_gustavo;
 
+
+import org.parceler.Parcel;
+
 /**
  * Created by gustavoveras on 25/05/16.
  */
+@Parcel
 public class Hero {
 
     String nome;
     String funcao;
+
+    public Hero() {
+    }
 
     public Hero(String nome, String funcao) {
         this.nome = nome;
@@ -15,6 +22,10 @@ public class Hero {
 
     @Override
     public String toString() {
-        return nome +" - " + funcao;
+        return nome + " - " + funcao;
     }
+
+
 }
+
+

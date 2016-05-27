@@ -7,20 +7,20 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    android:orientation="vertical"
+    android:orientation="horizontal"
     tools:context="com.projetogustavo.projeto_gustavo.MainActivity">
 
     <fragment
         android:id="@+id/fragment_heroes"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
         android:layout_weight="1"
         android:name="com.projetogustavo.projeto_gustavo.HeroesFragment" />
 
     <FrameLayout
         android:id="@+id/detail"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
         android:layout_weight="1"
         android:background="#CCCCCC"/>
 
