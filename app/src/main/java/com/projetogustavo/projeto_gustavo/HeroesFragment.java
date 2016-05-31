@@ -7,16 +7,17 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+
+import com.projetogustavo.projeto_gustavo.model.Hero;
 
 import java.util.ArrayList;
 import java.util.List;
 
 import butterknife.Bind;
 import butterknife.ButterKnife;
-import butterknife.OnItemSelected;
+import butterknife.OnItemClick;
 
 
 public class HeroesFragment extends Fragment {
@@ -47,7 +48,7 @@ public class HeroesFragment extends Fragment {
         return layout;
     }
 
-    @OnItemSelected(R.id.list_heroes)
+    @OnItemClick(R.id.list_heroes)
     void onItemSelected(int position) {
         Hero hero = atbHeroes.get(position);
         if (getActivity() instanceof ClickHeroListener) {

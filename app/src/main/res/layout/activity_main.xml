@@ -17,11 +17,4 @@
         android:layout_weight="1"
         android:name="com.projetogustavo.projeto_gustavo.HeroesFragment" />
 
-    <FrameLayout
-        android:id="@+id/detail"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        android:background="#CCCCCC"/>
-
 </LinearLayout>

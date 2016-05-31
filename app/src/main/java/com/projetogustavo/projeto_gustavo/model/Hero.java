@@ -1,4 +1,4 @@
-package com.projetogustavo.projeto_gustavo;
+package com.projetogustavo.projeto_gustavo.model;
 
 
 import org.parceler.Parcel;

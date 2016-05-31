@@ -9,6 +9,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
+import com.projetogustavo.projeto_gustavo.model.Hero;
+
 import org.parceler.Parcels;
 
 import butterknife.Bind;
