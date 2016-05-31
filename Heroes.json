@@ -1,0 +1,701 @@
+{
+    "Dota2": [
+        {
+            "position": "Mid",
+            "heroes": [
+                {
+                    "name": "antimage",
+                    "feature" : "Agility",
+                    "id": 1,
+                    "localized_name": "Anti-Mage"
+                },
+                {
+                    "name": "axe",
+                    "feature" : "Strength",
+                    "id": 2,
+                    "localized_name": "Axe"
+                },
+                {
+                    "name": "bane",
+                    "feature" : "Intelligence",
+                    "id": 3,
+                    "localized_name": "Bane"
+                },
+                {
+                    "name": "bloodseeker",
+                    "feature" : "Agility",
+                    "id": 4,
+                    "localized_name": "Bloodseeker"
+                },
+                {
+                    "name": "crystal_maiden",
+                    "feature" : "Intelligence",
+                    "id": 5,
+                    "localized_name": "Crystal Maiden"
+                },
+                {
+                    "name": "drow_ranger",
+                    "feature" : "Agility",
+                    "id": 6,
+                    "localized_name": "Drow Ranger"
+                },
+                {
+                    "name": "earthshaker",
+                    "feature" : "Strength",
+                    "id": 7,
+                    "localized_name": "Earthshaker"
+                },
+                {
+                    "name": "juggernaut",
+                    "feature" : "Strength",
+                    "id": 8,
+                    "localized_name": "Juggernaut"
+                },
+                {
+                    "name": "mirana",
+                    "feature" : "Agility",
+                    "id": 9,
+                    "localized_name": "Mirana"
+                },
+                {
+                    "name": "nevermore",
+                    "feature" : "Agility",
+                    "id": 11,
+                    "localized_name": "Shadow Fiend"
+                },
+                {
+                    "name": "morphling",
+                    "feature" : "Agility",
+                    "id": 10,
+                    "localized_name": "Morphling"
+                },
+                {
+                    "name": "phantom_lancer",
+                    "feature" : "Agility",
+                    "id": 12,
+                    "localized_name": "Phantom Lancer"
+                },
+                {
+                    "name": "puck",
+                    "feature" : "Intelligence",
+                    "id": 13,
+                    "localized_name": "Puck"
+                },
+                {
+                    "name": "pudge",
+                    "feature" : "Strength",
+                    "id": 14,
+                    "localized_name": "Pudge"
+                },
+                {
+                    "name": "razor",
+                    "feature" : "Intelligence",
+                    "id": 15,
+                    "localized_name": "Razor"
+                },
+                {
+                    "name": "sand_king",
+                    "feature" : "Strength",
+                    "id": 16,
+                    "localized_name": "Sand King"
+                },
+                {
+                    "name": "storm_spirit",
+                    "feature" : "Intelligence",
+                    "id": 17,
+                    "localized_name": "Storm Spirit"
+                },
+                {
+                    "name": "sven",
+                    "feature" : "Strength",
+                    "id": 18,
+                    "localized_name": "Sven"
+                },
+                {
+                    "name": "tiny",
+                    "feature" : "Strength",
+                    "id": 19,
+                    "localized_name": "Tiny"
+                },
+                {
+                    "name": "vengefulspirit",
+                    "feature" : "Agility",
+                    "id": 20,
+                    "localized_name": "Vengeful Spirit"
+                },
+                {
+                    "name": "windrunner",
+                    "feature" : "Agility",
+                    "id": 21,
+                    "localized_name": "Windranger"
+                },
+                {
+                    "name": "zeus",
+                    "feature" : "Intelligence",
+                    "id": 22,
+                    "localized_name": "Zeus"
+                },
+                {
+                    "name": "kunkka",
+                    "feature" : "Strength",
+                    "id": 23,
+                    "localized_name": "Kunkka"
+                },
+                {
+                    "name": "lina",
+                    "feature" : "Intelligence",
+                    "id": 25,
+                    "localized_name": "Lina"
+                },
+                {
+                    "name": "lich",
+                    "feature" : "Intelligence",
+                    "id": 31,
+                    "localized_name": "Lich"
+                },
+                {
+                    "name": "lion",
+                    "feature" : "Intelligence",
+                    "id": 26,
+                    "localized_name": "Lion"
+                },
+                {
+                    "name": "shadow_shaman",
+                    "feature" : "Intelligence",
+                    "id": 27,
+                    "localized_name": "Shadow Shaman"
+                },
+                {
+                    "name": "slardar",
+                    "feature" : "Strength",
+                    "id": 28,
+                    "localized_name": "Slardar"
+                },
+                {
+                    "name": "tidehunter",
+                    "feature" : "Strength",
+                    "id": 29,
+                    "localized_name": "Tidehunter"
+                }
+            ]
+        },
+        {
+            "position": "Jungle",
+            "heroes": [
+                {                 
+                    "name": "witch_doctor",
+                    "feature" : "Intelligence",
+                    "id": 30,
+                    "localized_name": "Witch Doctor"
+                },
+                {
+                    "name": "riki",
+                    "feature" : "Agility",
+                    "id": 32,
+                    "localized_name": "Riki"
+                },
+                {
+                    "name": "enigma",
+                    "feature" : "Intelligence",
+                    "id": 33,
+                    "localized_name": "Enigma"
+                },
+                {
+                    "name": "tinker",
+                    "feature" : "Intelligence",
+                    "id": 34,
+                    "localized_name": "Tinker"
+                },
+                {
+                    "name": "sniper",
+                    "feature" : "Agility",
+                    "id": 35,
+                    "localized_name": "Sniper"
+                },
+                {
+                    "name": "necrolyte",
+                    "feature" : "Intelligence",
+                    "id": 36,
+                    "localized_name": "Necrophos"
+                },
+                {
+                    "name": "warlock",
+                    "feature" : "Intelligence",
+                    "id": 37,
+                    "localized_name": "Warlock"
+                },
+                {
+                    "name": "beastmaster",
+                    "feature" : "Strength",
+                    "id": 38,
+                    "localized_name": "Beastmaster"
+                },
+                {
+                    "name": "queenofpain",
+                    "feature" : "Agility",
+                    "id": 39,
+                    "localized_name": "Queen of Pain"
+                },
+                {
+                    "name": "venomancer",
+                    "feature" : "Intelligence",
+                    "id": 40,
+                    "localized_name": "Venomancer"
+                },
+                {
+                    "name": "faceless_void",
+                    "feature" : "Agility",
+                    "id": 41,
+                    "localized_name": "Faceless Void"
+                },
+                {
+                    "name": "skeleton_king",
+                    "feature" : "Strength",
+                    "id": 42,
+                    "localized_name": "Skeleton King"
+                },
+                {
+                    "name": "death_prophet",
+                    "feature" : "Intelligence",
+                    "id": 43,
+                    "localized_name": "Death Prophet"
+                },
+                {
+                    "name": "phantom_assassin",
+                    "feature" : "Agility",
+                    "id": 44,
+                    "localized_name": "Phantom Assassin"
+                },
+                {
+                    "name": "pugna",
+                    "feature" : "Intelligence",
+                    "id": 45,
+                    "localized_name": "Pugna"
+                },
+                {
+                    "name": "templar_assassin",
+                    "feature" : "Agility",
+                    "id": 46,
+                    "localized_name": "Templar Assassin"
+                },
+                {
+                    "name": "viper",
+                    "feature" : "Agility",
+                    "id": 47,
+                    "localized_name": "Viper"
+                },
+                {
+                    "name": "luna",
+                    "feature" : "Agility",
+                    "id": 48,
+                    "localized_name": "Luna"
+                },
+                {
+                    "name": "dragon_knight",
+                    "feature" : "Strength",
+                    "id": 49,
+                    "localized_name": "Dragon Knight"
+                },
+                {
+                    "name": "dazzle",
+                    "feature" : "Intelligence",
+                    "id": 50,
+                    "localized_name": "Dazzle"
+                },
+                {
+                    "name": "rattletrap",
+                    "feature" : "Strength",
+                    "id": 51,
+                    "localized_name": "Clockwerk"
+                },
+                {
+                    "name": "leshrac",
+                    "feature" : "Intelligence",
+                    "id": 52,
+                    "localized_name": "Leshrac"
+                },
+                {
+                    "name": "furion",
+                    "feature" : "Intelligence",
+                    "id": 53,
+                    "localized_name": "Nature's Prophet"
+                },
+                {
+                    "name": "life_stealer",
+                    "feature" : "Strength",
+                    "id": 54,
+                    "localized_name": "Lifestealer"
+                },
+                {
+                    "name": "dark_seer",
+                    "feature" : "Agility",
+                    "id": 55,
+                    "localized_name": "Dark Seer"
+                },
+                {
+                    "name": "clinkz",
+                    "feature" : "Strength",
+                    "id": 56,
+                    "localized_name": "Clinkz"
+                },
+                {
+                    "name": "omniknight",
+                    "feature" : "Strength",
+                    "id": 57,
+                    "localized_name": "Omniknight"
+                },
+                {
+                    "name": "enchantress",
+                    "feature" : "Intelligence",
+                    "id": 58,
+                    "localized_name": "Enchantress"
+                },
+                {
+                    "name": "huskar",
+                    "feature" : "Strength",
+                    "id": 59,
+                    "localized_name": "Huskar"
+                }
+            ]
+        },
+        {
+            "position": "Offlane",
+            "heroes": [
+                {
+                    "name": "night_stalker",
+                    "feature" : "Strength",
+                    "id": 60,
+                    "localized_name": "Night Stalker"
+                },
+                {
+                    "name": "broodmother",
+                    "feature" : "Agility",
+                    "id": 61,
+                    "localized_name": "Broodmother"
+                },
+                {
+                    "name": "bounty_hunter",
+                    "feature" : "Agility",
+                    "id": 62,
+                    "localized_name": "Bounty Hunter"
+                },
+                {
+                    "name": "weaver",
+                    "feature" : "Intelligence",
+                    "id": 63,
+                    "localized_name": "Weaver"
+                },
+                {
+                    "name": "jakiro",
+                    "feature" : "Intelligence",
+                    "id": 64,
+                    "localized_name": "Jakiro"
+                },
+                {
+                    "name": "batrider",
+                    "feature" : "Intelligence",
+                    "id": 65,
+                    "localized_name": "Batrider"
+                },
+                {
+                    "name": "chen",
+                    "feature" : "Intelligence",
+                    "id": 66,
+                    "localized_name": "Chen"
+                },
+                {
+                    "name": "spectre",
+                    "feature" : "Agility",
+                    "id": 67,
+                    "localized_name": "Spectre"
+                },
+                {
+                    "name": "doom_bringer",
+                    "feature" : "Agility",
+                    "id": 69,
+                    "localized_name": "Doom"
+                },
+                {
+                    "name": "ancient_apparition",
+                    "feature" : "Intelligence",
+                    "id": 68,
+                    "localized_name": "Ancient Apparition"
+                },
+                {
+                    "name": "ursa",
+                    "feature" : "Agility",
+                    "id": 70,
+                    "localized_name": "Ursa"
+                },
+                {
+                    "name": "spirit_breaker",
+                    "feature" : "Strength",
+                    "id": 71,
+                    "localized_name": "Spirit Breaker"
+                },
+                {
+                    "name": "gyrocopter",
+                    "feature" : "Strength",
+                    "id": 72,
+                    "localized_name": "Gyrocopter"
+                },
+                {
+                    "name": "alchemist",
+                    "feature" : "Strength",
+                    "id": 73,
+                    "localized_name": "Alchemist"
+                },
+                {
+                    "name": "invoker",
+                    "feature" : "Intelligence",
+                    "id": 74,
+                    "localized_name": "Invoker"
+                },
+                {
+                    "name": "silencer",
+                    "feature" : "Intelligence",
+                    "id": 75,
+                    "localized_name": "Silencer"
+                }
+            ]
+        },
+        {
+            "position": "Hard Carry",
+            "heroes": [
+                {
+                    "name": "obsidian_destroyer",
+                    "feature" : "Intelligence",
+                    "id": 76,
+                    "localized_name": "Outworld Devourer"
+                },
+                {
+                    "name": "lycan",
+                    "feature" : "Strength",
+                    "id": 77,
+                    "localized_name": "Lycanthrope"
+                },
+                {
+                    "name": "brewmaster",
+                    "feature" : "Strength",
+                    "id": 78,
+                    "localized_name": "Brewmaster"
+                },
+                {
+                    "name": "shadow_demon",
+                    "feature" : "Intelligence",
+                    "id": 79,
+                    "localized_name": "Shadow Demon"
+                },
+                {
+                    "name": "lone_druid",
+                    "feature" : "Strength",
+                    "id": 80,
+                    "localized_name": "Lone Druid"
+                },
+                {
+                    "name": "chaos_knight",
+                    "feature" : "Strength",
+                    "id": 81,
+                    "localized_name": "Chaos Knight"
+                },
+                {
+                    "name": "meepo",
+                    "feature" : "Agility",
+                    "id": 82,
+                    "localized_name": "Meepo"
+                },
+                {
+                    "name": "treant",
+                    "feature" : "Intelligence",
+                    "id": 83,
+                    "localized_name": "Treant Protector"
+                },
+                {
+                    "name": "ogre_magi",
+                    "feature" : "Intelligence",
+                    "id": 84,
+                    "localized_name": "Ogre Magi"
+                },
+                {
+                    "name": "undying",
+                    "feature" : "Strength",
+                    "id": 85,
+                    "localized_name": "Undying"
+                },
+                {
+                    "name": "rubick",
+                    "feature" : "Intelligence",
+                    "id": 86,
+                    "localized_name": "Rubick"
+                },
+                {
+                    "name": "disruptor",
+                    "feature" : "Intelligence",
+                    "id": 87,
+                    "localized_name": "Disruptor"
+                },
+                {
+                    "name": "nyx_assassin",
+                    "feature" : "Strength",
+                    "id": 88,
+                    "localized_name": "Nyx Assassin"
+                },
+                {
+                    "name": "naga_siren",
+                    "feature" : "Agility",
+                    "id": 89,
+                    "localized_name": "Naga Siren"
+                },
+                {
+                    "name": "keeper_of_the_light",
+                    "feature" : "Intelligence",
+                    "id": 90,
+                    "localized_name": "Keeper of the Light"
+                },
+                {
+                    "name": "wisp",
+                    "feature" : "Intelligence",
+                    "id": 91,
+                    "localized_name": "Wisp"
+                },
+                {
+                    "name": "visage",
+                    "feature" : "Agility",
+                    "id": 92,
+                    "localized_name": "Visage"
+                }
+            ]
+        },
+        {
+            "position": "Support",
+            "heroes": [
+                {
+                    "name": "slark",
+                    "feature" : "Agility",
+                    "id": 93,
+                    "localized_name": "Slark"
+                },
+                {
+                    "name": "medusa",
+                    "feature" : "Agility",
+                    "id": 94,
+                    "localized_name": "Medusa"
+                },
+                {
+                    "name": "troll_warlord",
+                    "feature" : "Strength",
+                    "id": 95,
+                    "localized_name": "Troll Warlord"
+                },
+                {
+                    "name": "centaur",
+                    "feature" : "Strength",
+                    "id": 96,
+                    "localized_name": "Centaur Warrunner"
+                },
+                {
+                    "name": "magnataur",
+                    "feature" : "Strength",
+                    "id": 97,
+                    "localized_name": "Magnus"
+                },
+                {
+                    "name": "shredder",
+                    "feature" : "Strength",
+                    "id": 98,
+                    "localized_name": "Timbersaw"
+                },
+                {
+                    "name": "bristleback",
+                    "feature" : "Strength",
+                    "id": 99,
+                    "localized_name": "Bristleback"
+                },
+                {
+                    "name": "tusk",
+                    "feature" : "Strength",
+                    "id": 100,
+                    "localized_name": "Tusk"
+                },
+                {
+                    "name": "skywrath_mage",
+                    "feature" : "Intelligence",
+                    "id": 101,
+                    "localized_name": "Skywrath Mage"
+                },
+                {
+                    "name": "abaddon",
+                    "feature" : "Strength",
+                    "id": 102,
+                    "localized_name": "Abaddon"
+                },
+                {
+                    "name": "elder_titan",
+                    "feature" : "Strength",
+                    "id": 103,
+                    "localized_name": "Elder Titan"
+                },
+                {
+                    "name": "legion_commander",
+                    "feature" : "Strength",
+                    "id": 104,
+                    "localized_name": "Legion Commander"
+                },
+                {
+                    "name": "ember_spirit",
+                    "feature" : "Agility",
+                    "id": 106,
+                    "localized_name": "Ember Spirit"
+                },
+                {
+                    "name": "earth_spirit",
+                    "feature" : "Agility",
+                    "id": 107,
+                    "localized_name": "Earth Spirit"
+                },
+                {
+                    "name": "abyssal_underlord",
+                    "feature" : "Strength",
+                    "id": 108,
+                    "localized_name": "Abyssal Underlord"
+                },
+                {
+                    "name": "terrorblade",
+                    "feature" : "Agility",
+                    "id": 109,
+                    "localized_name": "Terrorblade"
+                },
+                {
+                    "name": "phoenix",
+                    "feature" : "Intelligence",
+                    "id": 110,
+                    "localized_name": "Phoenix"
+                },
+                {
+                    "name": "techies",
+                    "feature" : "Intelligence",
+                    "id": 105,
+                    "localized_name": "Techies"
+                },
+                {
+                    "name": "oracle",
+                    "feature" : "Intelligence",
+                    "id": 111,
+                    "localized_name": "Oracle"
+                },
+                {
+                    "name": "winter_wyvern",
+                    "feature" : "Intelligence",
+                    "id": 112,
+                    "localized_name": "Winter Wyvern"
+                },
+                {
+                    "name": "arc_warden",
+                    "feature" : "Intelligence",
+                    "id": 113,
+                    "localized_name": "Arc Warden"
+                }
+            ]
+        }
+    ]
+}
