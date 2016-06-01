@@ -5,12 +5,10 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context="com.projetogustavo.projeto_gustavo.MainActivity">
-
-    <fragment
-        android:id="@+id/fragment_heroes"
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPager"
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        android:name="com.projetogustavo.projeto_gustavo.HeroesFragment" />
+        android:layout_height="match_parent">
 
+    </android.support.v4.view.ViewPager>
 </LinearLayout>

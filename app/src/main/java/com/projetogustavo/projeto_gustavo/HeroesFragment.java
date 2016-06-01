@@ -98,10 +98,6 @@ public class HeroesFragment extends Fragment {
 
     }
 
-    public interface ClickHeroListener {
-        void HeroClicked(Hero hero);
-    }
-
     class HeroesTask extends AsyncTask<Void, Void, Dota> {
 
 
@@ -121,7 +117,6 @@ public class HeroesFragment extends Fragment {
                     .url("https://dl.dropboxusercontent.com/s/mp1fwit2sw1jv9p/Heroes.json?dl=0")
                     .build();
             try {
-                Thread.sleep(2000);
                 Response response = client.newCall(request).execute();
                 String jsonString = response.body().string();
                 Log.d("NGVL", jsonString);

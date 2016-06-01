@@ -12,6 +12,7 @@ public class Hero {
     String nome;
     String feature;
     String image;
+    private long id;
 
     public String getNome() {
         return nome;
@@ -42,6 +43,14 @@ public class Hero {
         return nome + " - " + feature ;
     }
 
+
+    public long getId() {
+        return id;
+    }
+
+    public void setId(long id) {
+        this.id = id;
+    }
 
 }
 

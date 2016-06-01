@@ -1,20 +1,52 @@
 package com.projetogustavo.projeto_gustavo;
 
 import android.content.Intent;
-import android.os.Parcelable;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.os.Parcelable;
+import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentManager;
+import android.support.v4.app.FragmentPagerAdapter;
+import android.support.v4.view.ViewPager;
+import android.support.v7.app.AppCompatActivity;
 
 import com.projetogustavo.projeto_gustavo.model.Hero;
 
 import org.parceler.Parcels;
 
-public class MainActivity extends AppCompatActivity implements HeroesFragment.ClickHeroListener{
+import butterknife.Bind;
+import butterknife.ButterKnife;
+
+public class MainActivity extends AppCompatActivity implements ClickHeroListener{
+
+    @Bind(R.id.viewPager)
+    ViewPager atbViewPager;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        ButterKnife.bind(this);
+
+        atbViewPager.setAdapter(new HeroPager(getSupportFragmentManager()));
+
+    }
+
+    class HeroPager extends FragmentPagerAdapter{
+
+        public HeroPager(FragmentManager fm) {
+            super(fm);
+        }
+
+        @Override
+        public Fragment getItem(int position) {
+            if (position == 0) return new HeroesFragment();
+            return new HeroesFavoriteFragment();
+        }
+
+        @Override
+        public int getCount() {
+            return 2;
+        }
     }
 
     @Override
