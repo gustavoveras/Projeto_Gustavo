@@ -5,6 +5,7 @@ import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
+import android.support.v4.widget.SwipeRefreshLayout;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -32,8 +33,19 @@ public class HeroesFragment extends Fragment {
 
     @Bind(R.id.list_heroes)
     ListView atbListView;
+    @Bind(R.id.swipe)
+    SwipeRefreshLayout atbSwipe;
+
     List<Hero> atbHeroes;
     ArrayAdapter<Hero> atbAdapter;
+    HeroesTask atbTask;
+
+    @Override
+    public void onCreate(@Nullable Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setRetainInstance(true);
+        atbHeroes = new ArrayList<>();
+    }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -41,18 +53,39 @@ public class HeroesFragment extends Fragment {
         View layout = inflater.inflate(R.layout.fragment_heroes, container, false);
         ButterKnife.bind(this, layout);
 
-        atbHeroes = new ArrayList<>();
-        atbAdapter = new ArrayAdapter<>(
-                getActivity(), android.R.layout.simple_list_item_1, atbHeroes);
+
+        atbAdapter = new HeroesAdapter(getContext(), atbHeroes);
         atbListView.setAdapter(atbAdapter);
+        atbSwipe.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
+            @Override
+            public void onRefresh() {
+                    atbTask = new HeroesTask();
+                    atbTask.execute();
+            }
+        });
+
         return layout;
     }
 
     @Override
     public void onActivityCreated(@Nullable Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
+        if (atbHeroes.size() == 0 && atbTask == null){
+            atbTask = new HeroesTask();
+            atbTask.execute();
+        } else if (atbTask != null && atbTask.getStatus() == AsyncTask.Status.RUNNING){
+            showProgress();
 
-        new HeroesTask().execute();
+        }
+    }
+
+    private void showProgress(){
+        atbSwipe.post(new Runnable() {
+            @Override
+            public void run() {
+                atbSwipe.setRefreshing(true);
+            }
+        });
     }
 
     @OnItemClick(R.id.list_heroes)
@@ -71,6 +104,13 @@ public class HeroesFragment extends Fragment {
 
     class HeroesTask extends AsyncTask<Void, Void, Dota> {
 
+
+        @Override
+        protected void onPreExecute() {
+            super.onPreExecute();
+            showProgress();
+        }
+
         @Override
         protected Dota doInBackground(Void... params) {
 
@@ -81,6 +121,7 @@ public class HeroesFragment extends Fragment {
                     .url("https://dl.dropboxusercontent.com/s/mp1fwit2sw1jv9p/Heroes.json?dl=0")
                     .build();
             try {
+                Thread.sleep(2000);
                 Response response = client.newCall(request).execute();
                 String jsonString = response.body().string();
                 Log.d("NGVL", jsonString);
@@ -97,14 +138,15 @@ public class HeroesFragment extends Fragment {
         protected void onPostExecute(Dota dota) {
             super.onPostExecute(dota);
 
-            if (dota != null){
+            if (dota != null) {
                 atbHeroes.clear();
-                for (Position position: dota.getPositions()){
+                for (Position position : dota.getPositions()) {
                     atbHeroes.addAll(position.getHeroes());
 
                 }
                 atbAdapter.notifyDataSetChanged();
             }
+            atbSwipe.setRefreshing(false);
         }
     }
 }
