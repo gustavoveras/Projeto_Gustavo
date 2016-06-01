@@ -10,19 +10,36 @@ import org.parceler.Parcel;
 public class Hero {
 
     String nome;
-    String funcao;
+    String feature;
+    String image;
 
-    public Hero() {
+    public String getNome() {
+        return nome;
     }
 
-    public Hero(String nome, String funcao) {
+    public void setNome(String nome) {
         this.nome = nome;
-        this.funcao = funcao;
+    }
+
+    public String getFeature() {
+        return feature;
+    }
+
+    public void setFeature(String feature) {
+        this.feature = feature;
+    }
+
+    public String getImage() {
+        return image;
+    }
+
+    public void setImage(String image) {
+        this.image = image;
     }
 
     @Override
     public String toString() {
-        return nome + " - " + funcao;
+        return nome + " - " + feature ;
     }
 
 

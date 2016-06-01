@@ -25,6 +25,7 @@ public class DetailHeroFragment extends Fragment {
     TextView atbtxtNome;
     @Bind(R.id.text_funcao)
     TextView atbtxtFuncao;
+    TextView atbtxtFeature;
 
     private Hero atbHero;
 
@@ -51,8 +52,8 @@ public class DetailHeroFragment extends Fragment {
                              Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_detail_hero, container, false);
         ButterKnife.bind(this, view);
-        atbtxtNome.setText(atbHero.nome);
-        atbtxtFuncao.setText(atbHero.funcao);
+        atbtxtNome.setText(atbHero.getNome());
+        atbtxtFeature.setText(atbHero.getFeature());
 
         return view;
     }
